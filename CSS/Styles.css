@@ -1,0 +1,167 @@
+/***************************ELEMENTS***************************/
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h1 {
+  margin: 50 auto 0 auto;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+/***************************ID***************************/
+/***************************CLASSES***************************/
+.Top-Container {
+  background-color: #DEDDFA;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.Middle-Container {
+  margin: 100px 0;
+  position: relative;
+}
+
+.Bottom-Container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.Pro {
+  text-decoration: Underline;
+}
+
+.Sun {
+  position: absolute;
+  width: 250px;
+  right: 300px;
+  top: 40px;
+}
+
+.Profile {
+  border-radius: 100%;
+  padding-top: 20px;
+}
+
+.Skills-1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Skills-2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.Programmer {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.hobbies-row {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.Hobbies-1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.Hobbies-2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.Trademark{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Merriweather', serif;
+	font-size:19px;
+	padding:12px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
